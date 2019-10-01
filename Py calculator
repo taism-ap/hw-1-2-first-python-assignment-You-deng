@@ -1,0 +1,17 @@
+x = input("Enter your first value:")
+
+operator = input("Enter your operator as + for addition, - for subtractiom, * for multiplication, / for division")
+
+y = input("Enter your second Value:")
+
+if operator == "+":
+ print (int(x)+int(y))
+
+if operator == "-":
+ print (int(x)-int(y))
+
+if operator == "*":
+ print (int(x)*int(y))
+
+if operator == "/":
+ print (int(x)/int(y))
